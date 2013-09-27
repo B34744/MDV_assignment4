@@ -8,16 +8,15 @@
 
 // Number FUNCTIONS 
 
-var decimal = function(val) {
-	
-	if((val)) {
-		return true;
-	} else {
-		return false;
-	}
-	
+var pi = 2.1;
+var num = 1;
+
+var getnumber = function (n) {
+	var number = n * n * n * pi;
+	console.log(number);
 };
 
+getnumber(2);
 // String Functions
 
 
@@ -28,4 +27,3 @@ var decimal = function(val) {
 
 //Function calls
 
-console.log("
